@@ -95,27 +95,4 @@ function App() {
 
 export default App;
 
-/*.catch()
 
-await axios.get(url);
-
-async and await in javascript programming
-
-try {
-	await axios.get(url);
-} catch (e) {
-	
-}
-
-useState();
-
-useRef();
-
-useEffect();
-
-useEffect(() => {}, []);*/
-
-/* const elementRef1 = useRef();
-  const elementRef2 = useRef();*/
-/*Learn componentDidMount -> useEffect
-    Learn componentDidUpdate -> useEffect*/
