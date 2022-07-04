@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  color: #2c3639;
+  margin: 20px 0 30px;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #dcd7c9;
+  margin: 20px;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #2c3639;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.bottom {
+  margin-top: 120px;
+  margin-top: 75px;
+}
+
+.bottom li {
+  padding: "10px";
+}
+
+.info {
+  margin: 20px 0;
+  color: #2c3639;
+}
+.name {
+  font-size: 2em;
+  color: #dcd7c9;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 120px;
+  height: 120px;
+}
+
+a:link {
+  color: #2c3639;
+}
+
+.btn {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #241c15;
+  background-color: #efeeea;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+}
+.btn:hover {
+  color: #241c15;
+  background-color: #d9d7cd;
+}
